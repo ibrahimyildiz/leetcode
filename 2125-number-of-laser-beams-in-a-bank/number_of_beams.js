@@ -15,4 +15,15 @@ function numberOfBeams(bank) {
   
     return beamCount;
   }
+
+  // Example usage:
+const bank = [
+    "011001",
+    "000000",
+    "010100",
+    "001000",
+];
+
+const result = numberOfBeams(bank);
+console.log(result); // Output: 8
   
