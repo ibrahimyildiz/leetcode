@@ -25,4 +25,4 @@ function findMatrix(nums) {
 // Example usage:
 const nums = [1, 3, 4, 1, 2, 3, 1];
 const result = findMatrix(nums);
-console.log(result);
+console.log(result); // Output: [ [ 1, 3, 4, 2 ], [ 1, 3 ], [ 1 ] ]
