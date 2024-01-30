@@ -37,10 +37,9 @@ class Solution {
 
     public static void main(String[] args) {
         // Example Usage:
-        // String[] tokens = {"2","1","+","3","*"};
         String[] tokens =  {"4","13","5","/","+"};
         Solution solution = new Solution();
         int result = solution.evalRPN(tokens);
-        System.out.println(result); // 9
+        System.out.println(result); // 6
     }
 }
