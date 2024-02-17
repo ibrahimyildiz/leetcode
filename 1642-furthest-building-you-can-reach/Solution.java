@@ -57,7 +57,7 @@ class Solution {
         int ladders = 1;
         int result1 = solution.furthestBuildingSolution1(heights, bricks, ladders);
         int result2 = solution.furthestBuildingSolution2(heights, bricks, ladders);
-        System.out.println(result1); // 7
-        System.out.println(result2); // 7
+        System.out.println(result1); // 3
+        System.out.println(result2); // 3
     }
 }
