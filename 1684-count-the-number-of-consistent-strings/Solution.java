@@ -34,6 +34,6 @@ public class Solution {
         String[] words = {"a", "b", "c", "ab", "ac", "bc", "abc", "abcd"};
         
         int result = solution.countConsistentStrings(allowed, words);
-        System.out.println(result);
+        System.out.println(result); // 7
     }
 }
